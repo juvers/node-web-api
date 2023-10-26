@@ -27,3 +27,32 @@ CREATE TABLE IF NOT EXISTS `tutorials` (
   published BOOLEAN DEFAULT false
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;`
 `
+
+## Test flow
+> use ThundeClient
+
+#### Create multiple entries as follows
+> sample with publish true
+
+`
+{
+  "title": "express api",
+  "description": "Description 2",
+  "published": true
+}`
+
+> sample with publish false
+
+`
+{
+  "title": "node api",
+  "description": "Description 1",
+}`
+
+
+### Resources
+> https://www.mysqltutorial.org/
+
+> https://www.bezkoder.com/node-js-rest-api-express-mysql/
+
+> https://www.npmjs.com/package/mysql
