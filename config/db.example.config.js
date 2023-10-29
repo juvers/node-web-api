@@ -4,5 +4,5 @@ module.exports = {
     HOST: "localhost",
     USER: "root",
     PASSWORD: "xxxxxxxx",
-    DB: "testdb"
+    DB: "nodedb"
 }
